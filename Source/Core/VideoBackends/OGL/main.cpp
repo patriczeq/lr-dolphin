@@ -76,7 +76,7 @@ std::string VideoBackend::GetDisplayName() const
 void VideoBackend::InitBackendInfo()
 {
   g_Config.backend_info.api_type = APIType::OpenGL;
-  g_Config.backend_info.MaxTextureSize = 16384;
+  g_Config.backend_info.MaxTextureSize = 1024;//16384;
   g_Config.backend_info.bUsesLowerLeftOrigin = true;
   g_Config.backend_info.bSupportsExclusiveFullscreen = false;
   g_Config.backend_info.bSupportsOversizedViewports = true;
