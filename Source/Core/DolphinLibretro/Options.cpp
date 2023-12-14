@@ -118,7 +118,7 @@ Option<std::string> renderer("dolphin_renderer", "Renderer", {"Hardware", "Softw
 #endif
 });
 Option<float> efbScale("dolphin_efb_scale", "Internal Resolution", 1,
-                     {"x0.25 (160 x 132)", "x0.5 (320 x 264)", "x1 (640 x 528)", "x2 (1280 x 1056)", "x3 (1920 x 1584)", "x4 (2560 x 2112)",
+                     {"x1 (640 x 528)", "x2 (1280 x 1056)", "x3 (1920 x 1584)", "x4 (2560 x 2112)",
                       "x5 (3200 x 2640)", "x6 (3840 x 3168)"});
 Option<bool> Widescreen("dolphin_widescreen", "Widescreen (Wii)", true);
 Option<bool> WidescreenHack("dolphin_widescreen_hack", "WideScreen Hack", false);
