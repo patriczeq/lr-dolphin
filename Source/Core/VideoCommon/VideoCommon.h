@@ -6,9 +6,11 @@
 
 #include "Common/CommonTypes.h"
 
-// These are accurate (disregarding AA modes).
-constexpr u32 EFB_WIDTH = 640;
-constexpr u32 EFB_HEIGHT = 528;
+// These are accurate (disregarding AA modes). TODO:
+//constexpr u32 EFB_WIDTH = 640;
+//constexpr u32 EFB_HEIGHT = 528;
+constexpr u32 EFB_WIDTH = 320;
+constexpr u32 EFB_HEIGHT = 264;
 
 // Max XFB width is 720. You can only copy out 640 wide areas of efb to XFB
 // so you need multiple copies to do the full width.
